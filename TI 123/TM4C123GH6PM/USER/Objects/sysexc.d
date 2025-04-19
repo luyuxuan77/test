@@ -1,0 +1,9 @@
+.\objects\sysexc.o: ..\HARDWARE\sysexc.c
+.\objects\sysexc.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\sysexc.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\sysexc.o: ..\SYSTEM\hw_ints.h
+.\objects\sysexc.o: ..\SYSTEM\hw_sysctl.h
+.\objects\sysexc.o: ..\SYSTEM\hw_sysexc.h
+.\objects\sysexc.o: ..\SYSTEM\hw_types.h
+.\objects\sysexc.o: ..\HARDWARE\debug.h
+.\objects\sysexc.o: ..\HARDWARE\interrupt.h

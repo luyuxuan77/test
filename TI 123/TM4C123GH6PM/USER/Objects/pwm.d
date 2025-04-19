@@ -1,0 +1,11 @@
+.\objects\pwm.o: ..\HARDWARE\pwm.c
+.\objects\pwm.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\pwm.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\pwm.o: ..\SYSTEM\hw_ints.h
+.\objects\pwm.o: ..\SYSTEM\hw_memmap.h
+.\objects\pwm.o: ..\SYSTEM\hw_pwm.h
+.\objects\pwm.o: ..\SYSTEM\hw_sysctl.h
+.\objects\pwm.o: ..\SYSTEM\hw_types.h
+.\objects\pwm.o: ..\HARDWARE\debug.h
+.\objects\pwm.o: ..\HARDWARE\interrupt.h
+.\objects\pwm.o: ..\HARDWARE\pwm.h

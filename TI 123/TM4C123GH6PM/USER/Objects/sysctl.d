@@ -1,0 +1,12 @@
+.\objects\sysctl.o: ..\HARDWARE\sysctl.c
+.\objects\sysctl.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\sysctl.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\sysctl.o: ..\SYSTEM\hw_ints.h
+.\objects\sysctl.o: ..\SYSTEM\hw_nvic.h
+.\objects\sysctl.o: ..\SYSTEM\hw_sysctl.h
+.\objects\sysctl.o: ..\SYSTEM\hw_types.h
+.\objects\sysctl.o: ..\SYSTEM\hw_flash.h
+.\objects\sysctl.o: ..\HARDWARE\cpu.h
+.\objects\sysctl.o: ..\HARDWARE\debug.h
+.\objects\sysctl.o: ..\HARDWARE\interrupt.h
+.\objects\sysctl.o: ..\HARDWARE\sysctl.h
