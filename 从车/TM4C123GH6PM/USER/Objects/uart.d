@@ -1,0 +1,11 @@
+.\objects\uart.o: ..\HARDWARE\uart.c
+.\objects\uart.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\uart.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\uart.o: ..\SYSTEM\hw_ints.h
+.\objects\uart.o: ..\SYSTEM\hw_memmap.h
+.\objects\uart.o: ..\SYSTEM\hw_sysctl.h
+.\objects\uart.o: ..\SYSTEM\hw_types.h
+.\objects\uart.o: ..\SYSTEM\hw_uart.h
+.\objects\uart.o: ..\HARDWARE\debug.h
+.\objects\uart.o: ..\HARDWARE\interrupt.h
+.\objects\uart.o: ..\HARDWARE\uart.h
