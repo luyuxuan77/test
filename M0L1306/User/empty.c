@@ -10,16 +10,16 @@ int main(void)
     SYSCFG_DL_init();
 //	LED_init();
 //	//keyboard_init();
-//	OLED_Init();
-//	OLED_Clear();
-//	 OLED_ShowString(10, 0, "Hello");
-//	 OLED_ShowString(2, 14, "WE ARE WINNER!");
-//	OLED_ShowCHinese(12, 2, 3);
-	pwm_init();
+	OLED_Init();
+	OLED_Clear();
+	 OLED_ShowString(10, 0, "Hello");
+	 OLED_ShowString(2, 14, "WE ARE WINNER!");
+	OLED_ShowCHinese(12, 2, 3);
+//	pwm_init();
 //	uart0_init();
-	opa_init();
-	EXTI_init();
-	motor();
+//	opa_init();
+//	EXTI_init();
+//	motor();
     while(1) 
 	{
 //	printf("1");

@@ -1,0 +1,9 @@
+.\objects\interrupt.o: ..\HARDWARE\interrupt.c
+.\objects\interrupt.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\interrupt.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\interrupt.o: ..\SYSTEM\hw_ints.h
+.\objects\interrupt.o: ..\SYSTEM\hw_nvic.h
+.\objects\interrupt.o: ..\SYSTEM\hw_types.h
+.\objects\interrupt.o: ..\HARDWARE\cpu.h
+.\objects\interrupt.o: ..\HARDWARE\debug.h
+.\objects\interrupt.o: ..\HARDWARE\interrupt.h

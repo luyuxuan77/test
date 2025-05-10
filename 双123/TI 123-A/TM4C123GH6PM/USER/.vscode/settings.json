@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "*.rh": "c",
+        "encoder.h": "c",
+        "pid.h": "c"
+    }
+}

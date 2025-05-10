@@ -1,0 +1,9 @@
+.\objects\systick.o: ..\HARDWARE\systick.c
+.\objects\systick.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\systick.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\systick.o: ..\SYSTEM\hw_ints.h
+.\objects\systick.o: ..\SYSTEM\hw_nvic.h
+.\objects\systick.o: ..\SYSTEM\hw_types.h
+.\objects\systick.o: ..\HARDWARE\debug.h
+.\objects\systick.o: ..\HARDWARE\interrupt.h
+.\objects\systick.o: ..\HARDWARE\systick.h

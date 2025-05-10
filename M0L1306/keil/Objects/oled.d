@@ -4,9 +4,9 @@
   E:\Keil_v5\ARM\ARMCLANG\include\stdint.h \
   E:\Keil_v5\ARM\ARMCLANG\include\stdbool.h \
   ..\source\third_party\CMSIS\Core\Include\core_cm0plus.h \
-  C:\Users\luka\Desktop\empty\source\third_party\CMSIS\Core\Include\cmsis_version.h \
-  C:\Users\luka\Desktop\empty\source\third_party\CMSIS\Core\Include\cmsis_compiler.h \
-  C:\Users\luka\Desktop\empty\source\third_party\CMSIS\Core\Include\cmsis_armclang.h \
+  C:\Users\luka\Desktop\git仓库\M0L1306\source\third_party\CMSIS\Core\Include\cmsis_version.h \
+  C:\Users\luka\Desktop\git仓库\M0L1306\source\third_party\CMSIS\Core\Include\cmsis_compiler.h \
+  C:\Users\luka\Desktop\git仓库\M0L1306\source\third_party\CMSIS\Core\Include\cmsis_armclang.h \
   E:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h \
   ..\source\ti\devices\msp\peripherals\hw_adc12.h \
   ..\source\ti\devices\msp\peripherals\hw_comp.h \

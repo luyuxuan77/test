@@ -20,11 +20,8 @@
 **************************************************************************/
 void UART0_IRQHandler(void)
 {
-//	Blue_Light_Control(1);
     uint32_t ui32Status;
     ui32Status = MAP_UARTIntStatus(UART0_BASE, true);  // 读取串口0的中断状态
-//	printf("456\r\n");
-
 if (MAP_UARTCharsAvail(UART0_BASE))  // 如果缓存区有字符
     {
         c = UARTCharGetNonBlocking(UART0_BASE);  // 只读一个
