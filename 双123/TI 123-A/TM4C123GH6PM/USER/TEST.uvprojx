@@ -340,7 +340,7 @@
               <MiscControls>--c99</MiscControls>
               <Define>rvmdk PART_TM4C123GH6PM TARGET_IS_TM4C123_RB1</Define>
               <Undefine></Undefine>
-              <IncludePath>..\USER;..\HARDWARE;..\SYSTEM;..\UTILS;..\PERIPHERAL\RGB;..\PERIPHERAL\KEY;..\PERIPHERAL\UART0;..\PERIPHERAL\MOTOR;..\PERIPHERAL\ENCONDER;..\PERIPHERAL\SERVO;..\PERIPHERAL\PID;..\PERIPHERAL\MY_TIMER;..\PERIPHERAL\MY_ADC;..\PERIPHERAL\GYRO_U5;..\PERIPHERAL\CCD;..\PERIPHERAL\MYMATH;..\PERIPHERAL\CONTROL;..\PERIPHERAL\CAR_CONTROL;..\PERIPHERAL\OLED;..\PERIPHERAL\UART1;..\PERIPHERAL\STATA_MACHINE;..\PERIPHERAL\TRACK;..\HARDWARE\UART2;..\PERIPHERAL\UART7;..\PERIPHERAL\DISTANCE</IncludePath>
+              <IncludePath>..\USER;..\HARDWARE;..\SYSTEM;..\UTILS;..\PERIPHERAL\RGB;..\PERIPHERAL\KEY;..\PERIPHERAL\UART0;..\PERIPHERAL\MOTOR;..\PERIPHERAL\ENCONDER;..\PERIPHERAL\SERVO;..\PERIPHERAL\PID;..\PERIPHERAL\MY_TIMER;..\PERIPHERAL\MY_ADC;..\PERIPHERAL\GYRO_U5;..\PERIPHERAL\CCD;..\PERIPHERAL\MYMATH;..\PERIPHERAL\CONTROL;..\PERIPHERAL\CAR_CONTROL;..\PERIPHERAL\OLED;..\PERIPHERAL\UART1;..\PERIPHERAL\STATA_MACHINE;..\PERIPHERAL\TRACK;..\HARDWARE\UART2;..\PERIPHERAL\UART7;..\PERIPHERAL\DISTANCE;..\PERIPHERAL\KEYBOARD;..\PERIPHERAL\MENU;..\USER</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -439,6 +439,11 @@
               <FileType>1</FileType>
               <FilePath>..\HARDWARE\UART2\uart2.c</FilePath>
             </File>
+            <File>
+              <FileName>bsp.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\bsp.h</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -530,11 +535,6 @@
               <FilePath>..\PERIPHERAL\RGB\rgb.c</FilePath>
             </File>
             <File>
-              <FileName>key.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\PERIPHERAL\KEY\key.c</FilePath>
-            </File>
-            <File>
               <FileName>uart0.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\PERIPHERAL\UART0\uart0.c</FilePath>
@@ -623,6 +623,16 @@
               <FileName>distance.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\PERIPHERAL\DISTANCE\distance.c</FilePath>
+            </File>
+            <File>
+              <FileName>keyboard.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\PERIPHERAL\KEYBOARD\keyboard.c</FilePath>
+            </File>
+            <File>
+              <FileName>menu.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\PERIPHERAL\MENU\menu.c</FilePath>
             </File>
           </Files>
         </Group>

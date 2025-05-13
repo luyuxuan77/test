@@ -1,21 +1,29 @@
 // Update date：2023/7/30
-#include <stdint.h>
-#include <stdbool.h>
-#include "tiva_sys.h"
-#include "tiva_lib.h"
-#include "uart1.h"
-#include "my_timer.h"
-#include "control.h"
-#include "motor.h"
-#include "uart0.h"
-#include "ccd.h"
-#include "rgb.h"
-#include "key.h"
-#include "encoder.h"
-#include "track.h"
-#include "State_Machine.h"
-#include "uart7.h"
-#include "distance.h"
+//#include <stdint.h>
+//#include <stdbool.h>
+//#include "tiva_sys.h"
+//#include "tiva_lib.h"
+//#include "uart1.h"
+//#include "my_timer.h"
+//#include "control.h"
+//#include "motor.h"
+//#include "uart0.h"
+//#include "ccd.h"
+//#include "rgb.h"
+//#include "keyboard.h"
+//#include "encoder.h"
+//#include "track.h"
+//#include "State_Machine.h"
+//#include "uart7.h"
+//#include "distance.h"
+//#include "oled.h"
+//#include "menu.h"
+
+//#include <stdio.h>
+#include "bsp.h"
+
+uint8_t key_num = 0;
+
 int main(void)
 {
 	//MAP_开头的查找时可以省略“MAP_”，个人理解这样可以兼容不同版本的函数封装
@@ -25,10 +33,12 @@ int main(void)
 	uart0_Init(115200, 16000000);//printf重定向串口
 //	uart1_Init(115200, 16000000);//蓝牙滑条协议
 //	uart7_Init(115200, 16000000);
-	RGB_Init();
-//	KEY_Init();
+	OLED_Init();
+    keyboard_init();
+	menu_init();
+
 //	Line7_Init();
-	Motor_Init();
+//	Motor_Init();
 //QEI0_Init();
 //QEI1_Init();
 //Pid_Init(&L1_Speed_Pid, &L1_PID_Value_Speed);
@@ -40,16 +50,17 @@ int main(void)
 //	Pid_Init(&UWB_Distance_Pid,&PID_Value_UWB_Distance[0]);
 //	UWB_Angle_Pid.SetPoint = 60;
 //	UWB_Distance_Pid.SetPoint = 100;
-	
+//	OLED_Clear();
+//	OLED_ShowString(0,0,"TEST",16);
+//	OLED_Refresh_Gram();
     while(1)
 	{
-//		printf("1");
-//		Grren_Light_Control(0);
-//		Blue_Light_Control(1);
-//		delay_ms(500);
-//		Grren_Light_Control(1);
-//		Blue_Light_Control(0);
-//		delay_ms(500);
-//		Track_Angle_Distance_Control();
+		menu_run();
+
+//        uint8_t key = keyboard_scan();
+//        if (key)
+//        {
+//            printf("Key %d pressed\n", key);
+//        }
     }
 }

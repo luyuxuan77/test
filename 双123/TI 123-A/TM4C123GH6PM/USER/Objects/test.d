@@ -1,4 +1,5 @@
 .\objects\test.o: TEST.c
+.\objects\test.o: bsp.h
 .\objects\test.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\test.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
 .\objects\test.o: tiva_sys.h
@@ -57,6 +58,7 @@
 .\objects\test.o: ..\HARDWARE\udma.h
 .\objects\test.o: ..\HARDWARE\lcd.h
 .\objects\test.o: ..\HARDWARE\uart.h
+.\objects\test.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 .\objects\test.o: ..\PERIPHERAL\UART1\uart1.h
 .\objects\test.o: ..\PERIPHERAL\MY_TIMER\my_timer.h
 .\objects\test.o: ..\USER\tiva_sys.h
@@ -79,9 +81,7 @@
 .\objects\test.o: ..\PERIPHERAL\RGB\rgb.h
 .\objects\test.o: ..\USER\tiva_sys.h
 .\objects\test.o: ..\USER\tiva_lib.h
-.\objects\test.o: ..\PERIPHERAL\KEY\key.h
-.\objects\test.o: ..\USER\tiva_sys.h
-.\objects\test.o: ..\USER\tiva_lib.h
+.\objects\test.o: ..\PERIPHERAL\KEYBOARD\keyboard.h
 .\objects\test.o: ..\PERIPHERAL\ENCONDER\encoder.h
 .\objects\test.o: ..\USER\tiva_sys.h
 .\objects\test.o: ..\USER\tiva_lib.h
@@ -93,3 +93,7 @@
 .\objects\test.o: ..\USER\tiva_sys.h
 .\objects\test.o: ..\USER\tiva_lib.h
 .\objects\test.o: ..\PERIPHERAL\UART7\uart7.h
+.\objects\test.o: ..\PERIPHERAL\OLED\oled.h
+.\objects\test.o: ..\USER\tiva_sys.h
+.\objects\test.o: ..\USER\tiva_lib.h
+.\objects\test.o: ..\PERIPHERAL\MENU\menu.h

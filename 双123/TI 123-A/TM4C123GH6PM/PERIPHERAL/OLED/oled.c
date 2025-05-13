@@ -1,6 +1,7 @@
 #include "oledfont.h"
-#include "stdlib.h"
-#include "oled.h"
+//#include "stdlib.h"
+//#include "oled.h"
+#include "bsp.h"
 
 /**************************************************************************
 函数功能：OLED引脚高低电平反转函数
