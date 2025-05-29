@@ -1,0 +1,17 @@
+..\obj\keyboard.o: ..\HARDWARE\KEYBOARD\keyboard.c
+..\obj\keyboard.o: ..\HARDWARE\KEYBOARD\keyboard.h
+..\obj\keyboard.o: ..\SYSTEM\sys\sys.h
+..\obj\keyboard.o: ..\SYSTEM\sys\stm32f4xx.h
+..\obj\keyboard.o: ..\SYSTEM\sys\core_cm4.h
+..\obj\keyboard.o: D:\MDK5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\keyboard.o: ..\SYSTEM\sys\core_cmInstr.h
+..\obj\keyboard.o: ..\SYSTEM\sys\core_cmFunc.h
+..\obj\keyboard.o: ..\SYSTEM\sys\core_cm4_simd.h
+..\obj\keyboard.o: ..\SYSTEM\sys\system_stm32f4xx.h
+..\obj\keyboard.o: ..\SYSTEM\delay\delay.h
+..\obj\keyboard.o: ..\SYSTEM\usart\usart.h
+..\obj\keyboard.o: D:\MDK5\ARM\ARMCC\Bin\..\include\stdio.h
+..\obj\keyboard.o: ..\HARDWARE\OLED\oled.h
+..\obj\keyboard.o: D:\MDK5\ARM\ARMCC\Bin\..\include\stdlib.h
+..\obj\keyboard.o: D:\MDK5\ARM\ARMCC\Bin\..\include\math.h
+..\obj\keyboard.o: ..\HARDWARE\LED\led.h

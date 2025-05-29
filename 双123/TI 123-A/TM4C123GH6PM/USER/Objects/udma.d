@@ -1,9 +1,0 @@
-.\objects\udma.o: ..\HARDWARE\udma.c
-.\objects\udma.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
-.\objects\udma.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
-.\objects\udma.o: ..\SYSTEM\hw_sysctl.h
-.\objects\udma.o: ..\SYSTEM\hw_types.h
-.\objects\udma.o: ..\SYSTEM\hw_udma.h
-.\objects\udma.o: ..\HARDWARE\debug.h
-.\objects\udma.o: ..\HARDWARE\interrupt.h
-.\objects\udma.o: ..\HARDWARE\udma.h

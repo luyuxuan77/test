@@ -1,0 +1,14 @@
+..\obj\usart3.o: ..\HARDWARE\USART3\usart3.c
+..\obj\usart3.o: ..\HARDWARE\USART3\usart3.h
+..\obj\usart3.o: ..\SYSTEM\sys\sys.h
+..\obj\usart3.o: ..\SYSTEM\sys\stm32f4xx.h
+..\obj\usart3.o: ..\SYSTEM\sys\core_cm4.h
+..\obj\usart3.o: D:\MDK5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\usart3.o: ..\SYSTEM\sys\core_cmInstr.h
+..\obj\usart3.o: ..\SYSTEM\sys\core_cmFunc.h
+..\obj\usart3.o: ..\SYSTEM\sys\core_cm4_simd.h
+..\obj\usart3.o: ..\SYSTEM\sys\system_stm32f4xx.h
+..\obj\usart3.o: D:\MDK5\ARM\ARMCC\Bin\..\include\stdio.h
+..\obj\usart3.o: ..\HARDWARE\FIFO\fifo.h
+..\obj\usart3.o: D:\MDK5\ARM\ARMCC\Bin\..\include\stdbool.h
+..\obj\usart3.o: ..\HARDWARE\LED\led.h

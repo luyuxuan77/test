@@ -1,0 +1,15 @@
+..\obj\vision_u4.o: ..\HARDWARE\VISION_U4\vision_u4.c
+..\obj\vision_u4.o: ..\SYSTEM\sys\sys.h
+..\obj\vision_u4.o: ..\SYSTEM\sys\stm32f4xx.h
+..\obj\vision_u4.o: ..\SYSTEM\sys\core_cm4.h
+..\obj\vision_u4.o: D:\MDK5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\vision_u4.o: ..\SYSTEM\sys\core_cmInstr.h
+..\obj\vision_u4.o: ..\SYSTEM\sys\core_cmFunc.h
+..\obj\vision_u4.o: ..\SYSTEM\sys\core_cm4_simd.h
+..\obj\vision_u4.o: ..\SYSTEM\sys\system_stm32f4xx.h
+..\obj\vision_u4.o: ..\HARDWARE\LED\led.h
+..\obj\vision_u4.o: D:\MDK5\ARM\ARMCC\Bin\..\include\math.h
+..\obj\vision_u4.o: ..\SYSTEM\delay\delay.h
+..\obj\vision_u4.o: D:\MDK5\ARM\ARMCC\Bin\..\include\stdlib.h
+..\obj\vision_u4.o: ..\HARDWARE\VISION_U4\vision_u4.h
+..\obj\vision_u4.o: D:\MDK5\ARM\ARMCC\Bin\..\include\stdio.h

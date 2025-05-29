@@ -1,0 +1,15 @@
+..\obj\zdt_x42_v2.o: ..\HARDWARE\ZDT_X42_V2\ZDT_X42_V2.c
+..\obj\zdt_x42_v2.o: ..\HARDWARE\ZDT_X42_V2\ZDT_X42_V2.h
+..\obj\zdt_x42_v2.o: ..\HARDWARE\USART3\usart3.h
+..\obj\zdt_x42_v2.o: ..\SYSTEM\sys\sys.h
+..\obj\zdt_x42_v2.o: ..\SYSTEM\sys\stm32f4xx.h
+..\obj\zdt_x42_v2.o: ..\SYSTEM\sys\core_cm4.h
+..\obj\zdt_x42_v2.o: D:\Keil_v5\Backup.001\ARM\ARMCC_5_06\Bin\..\include\stdint.h
+..\obj\zdt_x42_v2.o: ..\SYSTEM\sys\core_cmInstr.h
+..\obj\zdt_x42_v2.o: ..\SYSTEM\sys\core_cmFunc.h
+..\obj\zdt_x42_v2.o: ..\SYSTEM\sys\core_cm4_simd.h
+..\obj\zdt_x42_v2.o: ..\SYSTEM\sys\system_stm32f4xx.h
+..\obj\zdt_x42_v2.o: D:\Keil_v5\Backup.001\ARM\ARMCC_5_06\Bin\..\include\stdio.h
+..\obj\zdt_x42_v2.o: ..\HARDWARE\FIFO\fifo.h
+..\obj\zdt_x42_v2.o: D:\Keil_v5\Backup.001\ARM\ARMCC_5_06\Bin\..\include\stdbool.h
+..\obj\zdt_x42_v2.o: ..\SYSTEM\delay\delay.h

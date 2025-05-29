@@ -1,0 +1,10 @@
+..\obj\pid.o: ..\HARDWARE\PID\pid.c
+..\obj\pid.o: ..\HARDWARE\PID\pid.h
+..\obj\pid.o: ..\SYSTEM\sys\sys.h
+..\obj\pid.o: ..\SYSTEM\sys\stm32f4xx.h
+..\obj\pid.o: ..\SYSTEM\sys\core_cm4.h
+..\obj\pid.o: D:\MDK5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\pid.o: ..\SYSTEM\sys\core_cmInstr.h
+..\obj\pid.o: ..\SYSTEM\sys\core_cmFunc.h
+..\obj\pid.o: ..\SYSTEM\sys\core_cm4_simd.h
+..\obj\pid.o: ..\SYSTEM\sys\system_stm32f4xx.h

@@ -1,0 +1,12 @@
+..\obj\encoder.o: ..\HARDWARE\ENCODER\encoder.c
+..\obj\encoder.o: ..\HARDWARE\ENCODER\encoder.h
+..\obj\encoder.o: ..\SYSTEM\sys\sys.h
+..\obj\encoder.o: ..\SYSTEM\sys\stm32f4xx.h
+..\obj\encoder.o: ..\SYSTEM\sys\core_cm4.h
+..\obj\encoder.o: D:\MDK5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\encoder.o: ..\SYSTEM\sys\core_cmInstr.h
+..\obj\encoder.o: ..\SYSTEM\sys\core_cmFunc.h
+..\obj\encoder.o: ..\SYSTEM\sys\core_cm4_simd.h
+..\obj\encoder.o: ..\SYSTEM\sys\system_stm32f4xx.h
+..\obj\encoder.o: ..\HARDWARE\MOTOR\motor.h
+..\obj\encoder.o: ..\SYSTEM\delay\delay.h

@@ -1,0 +1,14 @@
+..\obj\bluetooch_u2.o: ..\HARDWARE\BLUETOOCH\bluetooch_u2.c
+..\obj\bluetooch_u2.o: ..\SYSTEM\sys\sys.h
+..\obj\bluetooch_u2.o: ..\SYSTEM\sys\stm32f4xx.h
+..\obj\bluetooch_u2.o: ..\SYSTEM\sys\core_cm4.h
+..\obj\bluetooch_u2.o: D:\MDK5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\bluetooch_u2.o: ..\SYSTEM\sys\core_cmInstr.h
+..\obj\bluetooch_u2.o: ..\SYSTEM\sys\core_cmFunc.h
+..\obj\bluetooch_u2.o: ..\SYSTEM\sys\core_cm4_simd.h
+..\obj\bluetooch_u2.o: ..\SYSTEM\sys\system_stm32f4xx.h
+..\obj\bluetooch_u2.o: ..\HARDWARE\LED\led.h
+..\obj\bluetooch_u2.o: ..\HARDWARE\MOTOR\motor.h
+..\obj\bluetooch_u2.o: ..\SYSTEM\delay\delay.h
+..\obj\bluetooch_u2.o: ..\HARDWARE\BLUETOOCH\bluetooch_u2.h
+..\obj\bluetooch_u2.o: D:\MDK5\ARM\ARMCC\Bin\..\include\stdio.h

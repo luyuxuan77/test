@@ -1,0 +1,14 @@
+..\obj\debug.o: ..\HARDWARE\DEBUG\debug.c
+..\obj\debug.o: ..\HARDWARE\DEBUG\debug.h
+..\obj\debug.o: ..\SYSTEM\sys\sys.h
+..\obj\debug.o: ..\SYSTEM\sys\stm32f4xx.h
+..\obj\debug.o: ..\SYSTEM\sys\core_cm4.h
+..\obj\debug.o: D:\MDK5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\debug.o: ..\SYSTEM\sys\core_cmInstr.h
+..\obj\debug.o: ..\SYSTEM\sys\core_cmFunc.h
+..\obj\debug.o: ..\SYSTEM\sys\core_cm4_simd.h
+..\obj\debug.o: ..\SYSTEM\sys\system_stm32f4xx.h
+..\obj\debug.o: ..\HARDWARE\UART5_PC\uart5_pc.h
+..\obj\debug.o: D:\MDK5\ARM\ARMCC\Bin\..\include\stdio.h
+..\obj\debug.o: D:\MDK5\ARM\ARMCC\Bin\..\include\stdlib.h
+..\obj\debug.o: D:\MDK5\ARM\ARMCC\Bin\..\include\string.h

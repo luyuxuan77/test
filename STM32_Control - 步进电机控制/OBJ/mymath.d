@@ -1,0 +1,10 @@
+..\obj\mymath.o: ..\HARDWARE\MYMATH\mymath.c
+..\obj\mymath.o: ..\HARDWARE\MYMATH\mymath.h
+..\obj\mymath.o: ..\SYSTEM\sys\sys.h
+..\obj\mymath.o: ..\SYSTEM\sys\stm32f4xx.h
+..\obj\mymath.o: ..\SYSTEM\sys\core_cm4.h
+..\obj\mymath.o: D:\MDK5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\mymath.o: ..\SYSTEM\sys\core_cmInstr.h
+..\obj\mymath.o: ..\SYSTEM\sys\core_cmFunc.h
+..\obj\mymath.o: ..\SYSTEM\sys\core_cm4_simd.h
+..\obj\mymath.o: ..\SYSTEM\sys\system_stm32f4xx.h

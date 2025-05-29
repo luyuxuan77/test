@@ -1,0 +1,15 @@
+..\obj\track.o: ..\HARDWARE\TRACK\track.c
+..\obj\track.o: ..\HARDWARE\TRACK\track.h
+..\obj\track.o: ..\SYSTEM\sys\sys.h
+..\obj\track.o: ..\SYSTEM\sys\stm32f4xx.h
+..\obj\track.o: ..\SYSTEM\sys\core_cm4.h
+..\obj\track.o: D:\MDK5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\track.o: ..\SYSTEM\sys\core_cmInstr.h
+..\obj\track.o: ..\SYSTEM\sys\core_cmFunc.h
+..\obj\track.o: ..\SYSTEM\sys\core_cm4_simd.h
+..\obj\track.o: ..\SYSTEM\sys\system_stm32f4xx.h
+..\obj\track.o: ..\HARDWARE\PID\pid.h
+..\obj\track.o: ..\HARDWARE\MOTOR\motor.h
+..\obj\track.o: ..\SYSTEM\delay\delay.h
+..\obj\track.o: ..\SYSTEM\usart\usart.h
+..\obj\track.o: D:\MDK5\ARM\ARMCC\Bin\..\include\stdio.h

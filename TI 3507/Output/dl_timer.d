@@ -6,12 +6,11 @@
   ..\Source\ti\devices\DeviceFamily.h \
   ..\Source\ti\devices\msp\m0p\mspm0g350x.h \
   ..\Source\third_party\CMSIS\Core\Include\core_cm0plus.h \
-  E:\25电赛\2020TI\ G\ 70\Source\third_party\CMSIS\Core\Include\cmsis_version.h \
-  E:\25电赛\2020TI\ G\ 70\Source\third_party\CMSIS\Core\Include\cmsis_compiler.h \
-  E:\25电赛\2020TI\ G\ 70\Source\third_party\CMSIS\Core\Include\cmsis_armclang.h \
+  C:\Users\luka\Desktop\git仓库\TI\ 3507\Source\third_party\CMSIS\Core\Include\cmsis_version.h \
+  C:\Users\luka\Desktop\git仓库\TI\ 3507\Source\third_party\CMSIS\Core\Include\cmsis_compiler.h \
+  C:\Users\luka\Desktop\git仓库\TI\ 3507\Source\third_party\CMSIS\Core\Include\cmsis_armclang.h \
   E:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h \
-  E:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h \
-  E:\25电赛\2020TI\ G\ 70\Source\third_party\CMSIS\Core\Include\mpu_armv7.h \
+  C:\Users\luka\Desktop\git仓库\TI\ 3507\Source\third_party\CMSIS\Core\Include\mpu_armv7.h \
   ..\Source\ti\devices\msp\peripherals\hw_adc12.h \
   ..\Source\ti\devices\msp\peripherals\hw_aes.h \
   ..\Source\ti\devices\msp\peripherals\hw_comp.h \

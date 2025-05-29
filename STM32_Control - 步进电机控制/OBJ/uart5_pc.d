@@ -1,0 +1,12 @@
+..\obj\uart5_pc.o: ..\HARDWARE\UART5_PC\uart5_pc.c
+..\obj\uart5_pc.o: ..\HARDWARE\UART5_PC\uart5_pc.h
+..\obj\uart5_pc.o: ..\SYSTEM\sys\sys.h
+..\obj\uart5_pc.o: ..\SYSTEM\sys\stm32f4xx.h
+..\obj\uart5_pc.o: ..\SYSTEM\sys\core_cm4.h
+..\obj\uart5_pc.o: D:\MDK5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\uart5_pc.o: ..\SYSTEM\sys\core_cmInstr.h
+..\obj\uart5_pc.o: ..\SYSTEM\sys\core_cmFunc.h
+..\obj\uart5_pc.o: ..\SYSTEM\sys\core_cm4_simd.h
+..\obj\uart5_pc.o: ..\SYSTEM\sys\system_stm32f4xx.h
+..\obj\uart5_pc.o: D:\MDK5\ARM\ARMCC\Bin\..\include\stdio.h
+..\obj\uart5_pc.o: ..\HARDWARE\DEBUG\debug.h

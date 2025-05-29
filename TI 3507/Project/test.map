@@ -2400,30 +2400,30 @@ Image component sizes
 
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Object Name
 
-        16          4          0          0          0       2297   delay.o
-        10          0          0          0          0        592   dl_common.o
-        86          8          0          0          0      15700   dl_spi.o
-       372         28          0          0          0      18918   dl_sysctl_mspm0g1x0x_g3x0x.o
-       412         48          0          0          0      36273   dl_timer.o
-        90          8          0          0          0      14511   dl_uart.o
-       164         36          0          0          4       9132   key.o
-        28         12          0          0          0      11672   led.o
-       188         52          0          0          0       4743   main.o
-       168          4          0         80          0      10871   motor.o
-      3756         24       1520          0          0      49251   oled_spi0.o
-       288          8          0          0        144       3616   pid.o
-       152         40         12          0         40      11974   spi0.o
-        44         18        192          0        256        660   startup_mspm0g350x_uvision.o
-       170         32         40          0          0      15327   ti_msp_dl_config.o
-        52         12          0          0         12       7700   tim_g0.o
-       216         16          0          0          4       8423   tim_g6.o
-       276         40         11          0          0      10377   tima0_pwm.o
-       178         28         12          0          0      12431   uart0.o
-       216         24          0          0         42      11469   uart2.o
-       340         72         12          0         42      12228   uart3.o
+        16          4          0          0          0       2313   delay.o
+        10          0          0          0          0        608   dl_common.o
+        86          8          0          0          0      15716   dl_spi.o
+       372         28          0          0          0      18934   dl_sysctl_mspm0g1x0x_g3x0x.o
+       412         48          0          0          0      36289   dl_timer.o
+        90          8          0          0          0      14527   dl_uart.o
+       164         36          0          0          4       9148   key.o
+        28         12          0          0          0      11688   led.o
+       188         52          0          0          0       4759   main.o
+       168          4          0         80          0      10887   motor.o
+      3756         24       1520          0          0      49267   oled_spi0.o
+       288          8          0          0        144       3632   pid.o
+       152         40         12          0         40      11990   spi0.o
+        44         18        192          0        256        676   startup_mspm0g350x_uvision.o
+       170         32         40          0          0      15343   ti_msp_dl_config.o
+        52         12          0          0         12       7716   tim_g0.o
+       216         16          0          0          4       8439   tim_g6.o
+       276         40         11          0          0      10393   tima0_pwm.o
+       178         28         12          0          0      12447   uart0.o
+       216         24          0          0         42      11485   uart2.o
+       340         72         12          0         42      12244   uart3.o
 
     ----------------------------------------------------------------------
-      7234        514       1836         80        544     268165   Object Totals
+      7234        514       1836         80        544     268501   Object Totals
          0          0         32          0          0          0   (incl. Generated)
         12          0          5          0          0          0   (incl. Padding)
 
@@ -2482,8 +2482,8 @@ Image component sizes
 
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   
 
-      8796        558       1836         80        640     268641   Grand Totals
-      8796        558       1836         80        640     268641   ELF Image Totals
+      8796        558       1836         80        640     268977   Grand Totals
+      8796        558       1836         80        640     268977   ELF Image Totals
       8796        558       1836         80          0          0   ROM Totals
 
 ==============================================================================
